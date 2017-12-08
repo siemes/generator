@@ -1,0 +1,40 @@
+{
+  "name": "generator-siemes",
+  "description": "Yeoman generator for siemes",
+  "version": "1.0.0",
+  "author": "Selçuk Fatih Sevinç",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "debug": "^2.6.3",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^1.1.1"
+  },
+  "main": "index.js",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siemes/generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siemes/generator/issues"
+  },
+  "homepage": "https://github.com/siemes/generator",
+  "files": [
+    "generators"
+  ],
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0",
+    "yeoman-assert": "^3.0.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

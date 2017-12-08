@@ -1,0 +1,126 @@
+{
+	"admin": {
+		"header": {
+			"logout": "Logout",
+			"home": "Home"
+		},
+		"navObject": {
+			"logo": "Customer",
+			"dashboard": "Dashboard",
+			"page": "Page",
+			"menu": "Menu",
+			"media": "Media",
+			"info": "Info"
+		},
+		"auth": {
+			"email": "Email",
+			"password": "Password",
+			"submit": "LOGIN"
+		}
+	},
+	"cms": {
+		"form": {
+			"required": "REQUIRED",
+			"button": {
+				"save": "SAVE",
+				"cancel": "CANCEL"
+			}
+		},
+		"page": {
+			"list": {
+				"header": "Page",
+				"new": {
+					"button": "PAGE"
+				},
+				"table": {
+					"title": "TITLE",
+					"languages": "LANGUAGES",
+					"tree": "TREE"
+				},
+				"notfound": "Pages not found!"
+			},
+			"form": {
+				"header": {
+					"edit": "Edit Page",
+					"new": "New Page"
+				}
+			}
+		},
+		"menu": {
+			"list": {
+				"header": "Menu",
+				"new": {
+					"button": "MENU"
+				},
+				"table": {
+					"name": "NAME",
+					"languages": "LANGUAGES",
+					"tree": "TREE"
+				},
+				"notfound": "Menus not found!"
+			},
+			"form": {
+				"header": {
+					"new": "New Menu",
+					"edit": "Edit Menu"
+				},
+				"new": {
+					"button": "MENU"
+				}
+			}
+		},
+		"media": {
+			"list": {
+				"header": "Media",
+				"new": {
+					"button": "FOLDER"
+				},
+				"notfound": "Medias not found!",
+				"edit": {
+					"button": "EDIT"
+				},
+				"editor": {
+					"choose": "choose",
+					"original": "original"
+				}
+			},
+			"file": {
+				"drop": "Drop files here",
+				"upload": "UPLOAD FILE",
+				"uploading": "uploading",
+				"cancel": "cancel",
+				"retry": "retry",
+				"delete": "delete",
+				"close": "close",
+				"no": "no",
+				"yes": "yes",
+				"ok": "ok"
+			},
+			"form": {
+				"header": {
+					"new": "New Folder",
+					"edit": "Edit Folder"
+				},
+				"new": {
+					"button": "FOLDER"
+				}
+			}
+		},
+		"info": {
+			"list": {
+				"header": "Info",
+				"table": {
+					"key": "NAME",
+					"value": "VALUE",
+					"languages": "LANGUAGES"
+				},
+				"notfound": "Infos not found!"
+			},
+			"form": {
+				"header": {
+					"edit": "Edit Info"
+				}
+			}
+		}
+	}
+}
