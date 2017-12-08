@@ -42,7 +42,6 @@ module.exports = class extends Generator {
     mkdirp('discriminator');
     mkdirp('middleware');
     mkdirp('controller');
-    mkdirp('public');
     mkdirp('test');
   }
 

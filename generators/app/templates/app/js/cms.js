@@ -5,8 +5,6 @@ import cmsEditor from './scripts/custom/cmsEditor';
 import cmsMediaSelect from './scripts/custom/cmsMediaSelect';
 import cmsPageFilter from './scripts/custom/cmsPageFilter';
 import cmsSortable from './scripts/custom/cmsSortable';
-import matchTeamSelect from './scripts/custom/matchTeamSelect';
-import matchFormTeamFilter from './scripts/custom/matchFormTeamFilter';
 import config from './config';
 
 $(() => {
@@ -16,6 +14,4 @@ $(() => {
   cmsMediaSelect();
   cmsPageFilter();
   cmsSortable();
-  matchTeamSelect();
-  matchFormTeamFilter();
 });
