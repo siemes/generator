@@ -2,12 +2,6 @@ const { Schema } = require('querymen');
 
 module.exports = () => (
   {
-    owner: {
-      field: '_id',
-      user: { put: true },
-      moderator: { put: true },
-    },
-
     adminSearch() {
       const q = new Schema();
       q.param('qType', null, { type: String, enum: ['all', 'allTotal', 'one', 'total'] });

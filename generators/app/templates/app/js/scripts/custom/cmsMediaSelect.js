@@ -3,7 +3,7 @@ import debug from 'debug';
 import 'selectize';
 
 global.jQuery = $;
-const log = debug('r2admin:field:relation');
+const log = debug('siemes:field:mediaSelect');
 
 const select2nested = (data, valueField, displayField, isMultiple, prefix, initPrefix = '-', depth = 0) => {
   let r = [];
