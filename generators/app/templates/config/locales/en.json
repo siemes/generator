@@ -19,6 +19,12 @@
 		}
 	},
 	"cms": {
+    "list": {
+			"tree": {
+				"edit": "edit",
+				"new": "new"
+			}
+		},
 		"form": {
 			"required": "REQUIRED",
 			"button": {
@@ -37,7 +43,8 @@
 					"languages": "LANGUAGES",
 					"tree": "TREE"
 				},
-				"notfound": "Pages not found!"
+        "notfound": "Pages not found!",
+        "warning": "use right click for context menu"
 			},
 			"form": {
 				"header": {
@@ -57,7 +64,8 @@
 					"languages": "LANGUAGES",
 					"tree": "TREE"
 				},
-				"notfound": "Menus not found!"
+        "notfound": "Menus not found!",
+        "warning": "use right click for context menu"
 			},
 			"form": {
 				"header": {
