@@ -1,7 +1,7 @@
 {
   "name": "generator-siemes",
   "description": "Yeoman generator for siemes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Selçuk Fatih Sevinç",
   "license": "MIT",
   "engines": {
